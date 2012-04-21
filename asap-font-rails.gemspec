@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.version     = AsapFontRails::VERSION
   s.authors     = ["Mark McConachie"]
   s.email       = ["mark@proofloop.com"]
-  s.homepage    = "markmcconachie.com"
+  s.homepage    = "http://markmcconachie.com"
   s.summary     = "ASAP font from Omnibus Type for Rails."
   s.description = "An example of integration fonts with rails asset pipleline"
 
