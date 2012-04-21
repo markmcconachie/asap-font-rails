@@ -1,0 +1,3 @@
+module AsapFontRails
+  VERSION = "0.0.1"
+end

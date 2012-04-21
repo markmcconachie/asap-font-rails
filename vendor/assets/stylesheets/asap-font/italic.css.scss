@@ -1,0 +1,10 @@
+@font-face {
+    font-family: 'AsapItalic';
+    src: url(font-path('Asap-Italic-webfont.eot'));
+    src: url(font-path('Asap-Italic-webfont.eot')+'?#iefix') format('embedded-opentype'),
+         url(font-path('Asap-Italic-webfont.woff')) format('woff'),
+         url(font-path('Asap-Italic-webfont.ttf')) format('truetype'),
+         url(font-path('Asap-Italic-webfont.svg#AsapItalic')) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

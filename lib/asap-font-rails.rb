@@ -1,0 +1,1 @@
+require "asap-font-rails/engine"
