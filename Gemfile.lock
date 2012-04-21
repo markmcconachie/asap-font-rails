@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    asap-font-rails (0.0.1)
+    asap-font-rails (0.0.2)
       rails (> 3.1)
       sass-rails
 

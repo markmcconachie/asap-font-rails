@@ -16,6 +16,7 @@ describe "css file integration" do
     it "provided on css pipeline" do
       visit '/assets/asap-font/regular.css'
       page.text.must_include '@font-face'
+      page.text.must_include 'AsapRegular'
     end
   end
 
@@ -23,6 +24,7 @@ describe "css file integration" do
     it "provided on css pipeline" do
       visit '/assets/asap-font/italic.css'
       page.text.must_include '@font-face'
+      page.text.must_include 'AsapItalic'
     end
   end
 
@@ -30,6 +32,7 @@ describe "css file integration" do
     it "provided on css pipeline" do
       visit '/assets/asap-font/bold.css'
       page.text.must_include '@font-face'
+      page.text.must_include 'AsapBold'
     end
   end
 
@@ -37,6 +40,7 @@ describe "css file integration" do
     it "provided on css pipeline" do
       visit '/assets/asap-font/bold-italic.css'
       page.text.must_include '@font-face'
+      page.text.must_include 'AsapBoldItalic'
     end
   end
 
