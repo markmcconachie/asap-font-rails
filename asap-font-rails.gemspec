@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.summary     = "ASAP font from Omnibus Type for Rails."
   s.description = "An example of integration fonts with rails asset pipleline"
 
-  s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
+  s.files =  `git ls-files`.split($\)
   s.test_files = Dir["test/**/*"]
 
   s.add_dependency "rails", "> 3.1"
