@@ -2,7 +2,7 @@
 
 Adds the [ASAP font](http://www.fontsquirrel.com/fonts/asap) by Omnibus Type to the Rails 3.1+ asset pipeline.
 
-I made this as an example of how to embed @fontface fonts in a ruby gem
+I made this as an example of how to embed @font-face fonts in a ruby gem
 
 ## Installation
 
